@@ -1,4 +1,4 @@
-package com.example.klasha_assessment
+package com.app.klsha
 
 import io.flutter.embedding.android.FlutterActivity
 

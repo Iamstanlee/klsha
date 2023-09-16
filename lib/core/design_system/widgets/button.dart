@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:klasha_assessment/core/design_system/color.dart';
-import 'package:klasha_assessment/core/design_system/dimension.dart';
-import 'package:klasha_assessment/core/design_system/typography.dart';
+import 'package:klsha/core/design_system/color.dart';
+import 'package:klsha/core/design_system/dimension.dart';
+import 'package:klsha/core/design_system/typography.dart';
 
 class AppButton extends StatelessWidget {
   const AppButton({

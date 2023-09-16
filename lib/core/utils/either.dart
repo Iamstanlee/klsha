@@ -1,6 +1,6 @@
 import 'package:equatable/equatable.dart';
-import 'package:klasha_assessment/core/http/error.dart';
-import 'package:klasha_assessment/core/utils/safe_print.dart';
+import 'package:klsha/core/http/error.dart';
+import 'package:klsha/core/utils/safe_print.dart';
 
 /// A convenience class for handling a value that can be either of two options.
 /// This class is typically used to represent the result of an operation

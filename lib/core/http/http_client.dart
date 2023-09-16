@@ -1,5 +1,5 @@
 import "package:dio/dio.dart";
-import "package:klasha_assessment/core/http/error.dart";
+import "package:klsha/core/http/error.dart";
 
 enum RequestType {
   get,

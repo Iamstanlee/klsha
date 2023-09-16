@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:klasha_assessment/core/design_system/color.dart';
+import 'package:klsha/core/design_system/color.dart';
 
 enum SnackbarType {
   info,

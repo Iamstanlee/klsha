@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:klasha_assessment/core/design_system/color.dart';
-import 'package:klasha_assessment/core/extensions/datetime.extension.dart';
-import 'package:klasha_assessment/core/extensions/list.extension.dart';
-import 'package:klasha_assessment/core/model/recipe.model.dart';
+import 'package:klsha/core/design_system/color.dart';
+import 'package:klsha/core/extensions/datetime.extension.dart';
+import 'package:klsha/core/extensions/list.extension.dart';
+import 'package:klsha/core/model/recipe.model.dart';
 import 'package:phosphor_flutter/phosphor_flutter.dart';
 
 class RecipePage extends StatelessWidget {

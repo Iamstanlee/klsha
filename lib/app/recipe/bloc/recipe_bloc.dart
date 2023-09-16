@@ -1,9 +1,9 @@
 import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:klasha_assessment/app/recipe/repository/recipe_repository.dart';
-import 'package:klasha_assessment/core/model/ingredient.model.dart';
-import 'package:klasha_assessment/core/model/recipe.model.dart';
+import 'package:klsha/app/recipe/repository/recipe_repository.dart';
+import 'package:klsha/core/model/ingredient.model.dart';
+import 'package:klsha/core/model/recipe.model.dart';
 
 part 'recipe_event.dart';
 part 'recipe_state.dart';

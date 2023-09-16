@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:klasha_assessment/app/recipe/bloc/recipe_bloc.dart';
-import 'package:klasha_assessment/app/recipe/recipe_page.dart';
-import 'package:klasha_assessment/core/design_system/color.dart';
-import 'package:klasha_assessment/core/design_system/dimension.dart';
-import 'package:klasha_assessment/core/design_system/typography.dart';
-import 'package:klasha_assessment/core/design_system/widgets/button.dart';
-import 'package:klasha_assessment/core/extensions/context.extension.dart';
-import 'package:klasha_assessment/core/extensions/datetime.extension.dart';
-import 'package:klasha_assessment/core/utils/snackbar.dart';
+import 'package:klsha/app/recipe/bloc/recipe_bloc.dart';
+import 'package:klsha/app/recipe/recipe_page.dart';
+import 'package:klsha/core/design_system/color.dart';
+import 'package:klsha/core/design_system/dimension.dart';
+import 'package:klsha/core/design_system/typography.dart';
+import 'package:klsha/core/design_system/widgets/button.dart';
+import 'package:klsha/core/extensions/context.extension.dart';
+import 'package:klsha/core/extensions/datetime.extension.dart';
+import 'package:klsha/core/utils/snackbar.dart';
 import 'package:phosphor_flutter/phosphor_flutter.dart';
 
 class LunchPreferencePage extends StatefulWidget {

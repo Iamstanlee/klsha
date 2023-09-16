@@ -1,13 +1,13 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:klasha_assessment/app/recipe/bloc/recipe_bloc.dart';
-import 'package:klasha_assessment/app/recipe/lunch_preference_page.dart';
-import 'package:klasha_assessment/app/recipe/repository/recipe_repository.dart';
-import 'package:klasha_assessment/app/recipe/repository/recipe_repository_impl.dart';
-import 'package:klasha_assessment/core/constant.dart';
-import 'package:klasha_assessment/core/design_system/theme.dart';
-import 'package:klasha_assessment/core/http/http_client.dart';
+import 'package:klsha/app/recipe/bloc/recipe_bloc.dart';
+import 'package:klsha/app/recipe/lunch_preference_page.dart';
+import 'package:klsha/app/recipe/repository/recipe_repository.dart';
+import 'package:klsha/app/recipe/repository/recipe_repository_impl.dart';
+import 'package:klsha/core/constant.dart';
+import 'package:klsha/core/design_system/theme.dart';
+import 'package:klsha/core/http/http_client.dart';
 
 final recipeRepository = RecipeRepository(
   http: HttpClient(

@@ -1,10 +1,10 @@
-import 'package:klasha_assessment/app/recipe/repository/recipe_repository.dart';
-import 'package:klasha_assessment/core/extensions/list.extension.dart';
-import 'package:klasha_assessment/core/http/error.dart';
-import 'package:klasha_assessment/core/http/http_client.dart';
-import 'package:klasha_assessment/core/model/ingredient.model.dart';
-import 'package:klasha_assessment/core/model/recipe.model.dart';
-import 'package:klasha_assessment/core/utils/either.dart';
+import 'package:klsha/app/recipe/repository/recipe_repository.dart';
+import 'package:klsha/core/extensions/list.extension.dart';
+import 'package:klsha/core/http/error.dart';
+import 'package:klsha/core/http/http_client.dart';
+import 'package:klsha/core/model/ingredient.model.dart';
+import 'package:klsha/core/model/recipe.model.dart';
+import 'package:klsha/core/utils/either.dart';
 
 class RecipeRepository implements IRecipeRepository {
   final HttpClient _http;
