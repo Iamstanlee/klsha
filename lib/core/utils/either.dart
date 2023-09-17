@@ -14,11 +14,15 @@ abstract class Either<L, R> extends Equatable {
 
   bool get isRight => fold((_) => false, (_) => true);
 
-  L get left => fold((leftValue) => leftValue,
-      (_) => throw UnimplementedError("Either::left"));
+  L get left => fold(
+        (leftValue) => leftValue,
+        (_) => throw UnimplementedError("Either:right_can't_be_used"),
+      );
 
-  R get right => fold((_) => throw UnimplementedError("Either::right"),
-      (rightValue) => rightValue);
+  R get right => fold(
+        (_) => throw UnimplementedError("Either:left_can't_be_used"),
+        (rightValue) => rightValue,
+      );
 }
 
 class Left<L, R> extends Either<L, R> {
